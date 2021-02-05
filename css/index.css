@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.select-option {
+  display: block;
+}
+
+#left-side-bar {
+  flex: 1;
+  height: 100%;
+}
+
+#right-side-bar {
+  flex: 4;
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+#select {
+  position: fixed;
+  z-index: 100;
+}
